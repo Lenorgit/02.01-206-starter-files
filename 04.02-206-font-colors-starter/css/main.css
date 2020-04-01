@@ -1,0 +1,119 @@
+body, html {
+  display: flex;
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+/* ----------- Phone ----------- */
+@media (min-width:50%;) {
+	body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+    background: red;
+  }
+}
+section {
+  width: 100%;
+  margin: 0;
+}
+.centered { 
+  padding: 0 3.125em;
+  font-family:'Montserrat', sans-serif; 
+  background: #f16059; 
+}
+
+h1 {
+  font-size: 2em; 
+  color: #fff; 
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color:#4eafb8;
+}
+
+p {
+	color:#ff8641;
+}
+
+/* ----------- Tablet ----------- */
+@media screen and (min-width: 786px) {
+	body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+    background: blue;
+  }
+}
+section {
+  width: 100%;
+  margin: 0;
+}
+
+.centered { 
+  padding: 0 3.125em;
+  font-family:'Montserrat', sans-serif; 
+  background: #f16059; 
+}
+
+h1 {
+  font-size: 3em; 
+  color: #fff; 
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color:#fcc02a;
+}
+
+p {
+	color:#7b8f8e;
+}
+
+/* ----------- Desktop ----------- */
+@media screen and (min-width: 1200px) {
+	body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+  }
+  
+}
+section {
+  width: 100%;
+  margin: 0;
+}
+
+.centered { 
+  padding: 0 3.125em;
+  font-family:'Montserrat', sans-serif; 
+  background: #f16059; 
+}
+
+h1 {
+  font-size: 4em; 
+  color: #fff; 
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color:#cabd61;
+}
+
+p {
+	color:#c19e74;
+}
